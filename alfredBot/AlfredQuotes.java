@@ -22,8 +22,16 @@ public class AlfredQuotes {
     }
     
     public String respondBeforeAlexis(String conversation) {
-        // YOUR CODE HERE
-        return conversation;
+        if (conversation.indexOf("Alexis")>-1){
+
+            return "right away";
+        }
+        else if (conversation.indexOf("Alfred")>-1){
+            return "At your service";
+        }
+            
+        
+        return " Right , and with that i shall retire ";
     }
     
 	// NINJA BONUS
